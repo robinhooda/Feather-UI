@@ -1,0 +1,36 @@
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: grid;
+    /* grid-template-rows: 100%; */
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "container1 container2";
+    height: 100%;
+    background-color: black;
+}
+
+#left-container{
+    grid-area: container1;
+    background-image: url(./images/15536.jpg);
+    background-size:cover;
+    opacity: 70%;
+    /* background-repeat: no-repeat; */
+    
+}
+
+#right-container{
+    grid-area: container2;
+    background-color: rgb(255, 255, 255);
+    opacity: 90%;
+}
+
