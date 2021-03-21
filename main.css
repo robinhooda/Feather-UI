@@ -100,11 +100,13 @@ header{
     display: flex;
     height: 90vh;
     align-items: center;
+    
 }
 
 .header-content{
     width: 50%;
     /* background-color: red; */
+    padding-left: 1rem;
 }
 .header-image{
     width: 50%;
