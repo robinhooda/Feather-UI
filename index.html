@@ -28,12 +28,23 @@
           <img src="./images/feather.svg" class="navbar-brand-logo" />
           <span class="navbar-brand-text">Feather UI</span>
         </div>
-
-        <ul>
-          <li>Documentation</li>
-          <li>Github</li>
-          <li>Dark Mode</li>
-        </ul>
+        <div class="navbar-links">
+          <ul class="navbar-links-list">
+            <li>Documentation</li>
+            <li>
+              <img
+                class="social-icons"
+                src="./icons/github-logo.svg"
+                alt="github"
+              />
+            </li>
+            <li>
+              <button id="themeToggle">
+                <img class="social-icons" src="./images/darkMode.svg" />
+              </button>
+            </li>
+          </ul>
+        </div>
       </nav>
       <header>
         <div class="header-content">
@@ -51,8 +62,13 @@
             </ul>
           </div>
           <div class="header-content-action">
-            <button class="primary-button">Get Started</button>
+            <a href="./docs.html">
+              <button class="primary-button">Get Started</button>
+            </a>
+          <a href="#">
             <button class="secondary-button">Download</button>
+          </a>
+            
           </div>
         </div>
         <div class="header-image">
@@ -65,7 +81,12 @@
           <img class="social-icons" src="./icons/linkedin.svg" alt="" />
           <img class="social-icons" src="./icons/twitter.svg" alt="" />
         </div>
-        <div class="author-info">Developed and designed by Robin Hooda</div>
+        <div class="author-info">
+          Developed and designed by
+          <span style="font-weight: 500"
+            ><a href="https://robinhooda.netlify.app/">Robin Hooda</a></span
+          >
+        </div>
       </footer>
     </div>
   </body>

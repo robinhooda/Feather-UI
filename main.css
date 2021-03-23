@@ -12,6 +12,7 @@
 body {
   height: 100vh;
   width: 100%;
+  font-size: 1.5rem;
   font-family: "Montserrat", Arial, Helvetica, sans-serif;
   /* overflow: hidden; */
 }
@@ -64,6 +65,10 @@ body {
     transform: translateY(-50%);
 } */
 
+button:focus {
+  outline: none;
+}
+
 .container {
   padding: 0rem 5rem;
   position: relative;
@@ -73,11 +78,11 @@ body {
 }
 .navbar-brand-text {
   font-weight: 500;
-  padding-left: 2rem;
+  padding-left: 3rem;
 }
 
 .navbar-brand-logo {
-  height: 1.5rem;
+  height: 2rem;
   position: absolute;
   top: -2px;
   /* display: flex;
@@ -89,18 +94,21 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem;
+  padding: 1.5rem;
 }
-nav ul {
+
+.navbar-links {
+  width: 30%;
+}
+.navbar-links-list {
   display: flex;
   list-style: none;
   justify-content: space-evenly;
-  width: 50%;
 }
 
 header {
   display: flex;
-  padding: 3rem 1rem;
+  padding: 5rem 1rem;
   align-items: center;
 }
 
@@ -114,10 +122,10 @@ header {
   /* background-color: rgb(0, 0, 0); */
 }
 .header-hero-image {
-  width: 100%;
+  width: 96%;
 }
 .header-content-heading {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 600;
 }
 .header-content-subheading {
@@ -125,24 +133,24 @@ header {
 }
 .header-content-description {
   font-weight: 300;
-  padding-top: 1rem;
+  padding-top: 2rem;
 }
 .header-content-description ul {
-  padding-left: 1rem;
+  padding-left: 2rem;
 }
 .header-content-action {
-  padding-top: 1rem;
+  padding-top: 2rem;
 }
 
 .primary-button,
 .secondary-button {
-  padding: 0.4rem 1rem;
-
+  padding: 0.6rem 3rem;
+  font-size: inherit;
   border-radius: 10px;
-  background-color: var(--primary-color);
 }
 
 .primary-button {
+  background-color: var(--primary-color);
   border: 1px solid var(--primary-color);
   color: white;
 }
@@ -151,6 +159,7 @@ header {
   border: 1px solid var(--primary-color);
   color: var(--primary-color);
   background-color: white;
+  margin-left: 1rem;
 }
 
 .primary-button:hover {
@@ -172,11 +181,21 @@ footer {
 
 footer .author-info {
   font-weight: 300;
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
+
+.author-info a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .author-links-section {
   text-align: center;
 }
 .social-icons {
-  height: 1rem;
+  height: 1.5rem;
+}
+.navbar-links-list button {
+  background-color: white;
+  border: none;
 }
