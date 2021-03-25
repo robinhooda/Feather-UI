@@ -10,6 +10,7 @@
 }
 
 body {
+  position: relative;
   height: 100vh;
   width: 100%;
   font-size: 1.5rem;
@@ -69,6 +70,10 @@ button:focus {
   outline: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 .container {
   padding: 0rem 5rem;
   position: relative;
@@ -89,7 +94,7 @@ button:focus {
     align-items: baseline; */
   /* transform: translateY(20%); */
 }
-nav {
+.navbar {
   border-bottom: 1px solid gray;
   display: flex;
   justify-content: space-between;
@@ -135,8 +140,15 @@ header {
   font-weight: 300;
   padding-top: 2rem;
 }
-.header-content-description ul {
+.header-content-description .list-icon {
+  padding-right: 1rem;
+}
+/* .header-content-description ul {
   padding-left: 2rem;
+} */
+.header-content-description ul li {
+  list-style: none;
+  padding-bottom: 1rem;
 }
 .header-content-action {
   padding-top: 2rem;
@@ -147,6 +159,7 @@ header {
   padding: 0.6rem 3rem;
   font-size: inherit;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 .primary-button {
@@ -176,12 +189,14 @@ footer {
     align-items:center; */
   position: absolute;
   left: 50%;
+  bottom: 2rem;
   transform: translateX(-50%);
 }
 
 footer .author-info {
   font-weight: 300;
   font-size: 1rem;
+  padding-top: 1rem;
 }
 
 .author-info a {
@@ -192,8 +207,15 @@ footer .author-info {
 .author-links-section {
   text-align: center;
 }
+.author-links-section .social-icons {
+  padding: 0rem 0.5rem;
+}
 .social-icons {
   height: 1.5rem;
+  cursor: pointer;
+}
+.list-icon {
+  height: 1rem;
 }
 .navbar-links-list button {
   background-color: white;
