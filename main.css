@@ -33,9 +33,13 @@ a {
 }
 
 .container {
+  /* text-align: center; */
+  /* width: 90%; */
   padding: 0rem 5rem;
   position: relative;
 }
+
+ /* ****************NAVBAR SECTION****************** */
 .navbar-brand {
   position: relative;
 }
@@ -57,6 +61,11 @@ a {
   padding: 1.5rem;
 }
 
+.navbar-links-list button {
+  background-color: white;
+  border: none;
+}
+
 .navbar-links {
   width: 30%;
 }
@@ -66,6 +75,7 @@ a {
   justify-content: space-evenly;
 }
 
+/* *******************HEADER SECTION****************** */
 header {
   display: flex;
   padding: 5rem 1rem;
@@ -166,7 +176,4 @@ footer .author-info {
 .list-icon {
   height: 1rem;
 }
-.navbar-links-list button {
-  background-color: white;
-  border: none;
-}
+
