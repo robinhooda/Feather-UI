@@ -33,6 +33,10 @@
   color: inherit;
 }
 
+.theme-text{
+  color: var(--primary-color-hover);
+}
+
 .font-size-130 {
   font-size: 130%;
 }
@@ -192,6 +196,10 @@ aside ul li {
 }
 .main-content-heading {
   padding-bottom: 1rem;
+}
+
+p{
+padding: 1rem 0rem;
 }
 
 iframe {
