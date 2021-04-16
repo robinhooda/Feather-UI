@@ -86,19 +86,45 @@
     <div class="main-content content-wrap">
       <div class="main-content-heading bold">Avatars</div>
       <hr />
-      <div class="main-context-description">
+      <div class="main-content-description">
         <p>
           The Avatar component is used to represent a user, and displays the
           profile picture, initials or fallback icon.
         </p>
-        <div class="main-content-subheading">Avatar Sizes</div>
+        <div class="main-content-subheading">Avatar with images</div>
         <p>
           The Avatar component comes in 3 sizes. Select
           <span class="theme-text bold">small</span>,
           <span class="theme-text bold">medium</span> and
-          <span class="theme-text bold">large</span> to switch between sizes
+          <span class="theme-text bold">large</span> to switch between sizes.
+          <ul class="main-content-description--list">
+              <li>avatar-sm</li>
+              <li>avatar-md</li>
+              <li>avatar-lg</li>
+          </ul>
         </p>
       </div>
+      <div class="main-content-subheading">Example</div>
+      <div
+        style="border: 1px solid black; height: 10rem"
+        class="image-container"
+      >
+        <img class="avatar-sm" src="../images/avatar-img.jpg" alt="avatar" />
+        <img class="avatar-md" src="../images/avatar-img.jpg" alt="avatar" />
+        <img class="avatar-lg" src="../images/avatar-img.jpg" alt="avatar" />
+      </div>
+      <iframe
+        src="https://carbon.now.sh/embed/XIKu6Tod1kf85wKvQWtu"
+        style="
+          width: 100%;
+          height: 180px;
+          border: 0;
+          transform: scale(1);
+          overflow: hidden;
+        "
+        sandbox="allow-scripts allow-same-origin"
+      >
+      </iframe>
     </div>
     <script src="../index.js"></script>
   </body>
