@@ -7,10 +7,12 @@
   --light-gray: #bfdbfe;
   --dark-gray: #6b7280;
   --primary-color-hover: #226ee8;
+  --secondary-button-hover: #cdd7e8;
 }
 
 body {
   position: relative;
+  
   height: 100vh;
   width: 100%;
   font-size: 1.5rem;
@@ -152,8 +154,9 @@ header {
 }
 
 .secondary-button:hover {
-  border: 1px solid black;
-  color: black;
+  background-color: var(--secondary-button-hover);
+  border: 1px solid var(--secondary-button-hover);
+  /* color: var(--primary-color) */
 }
 footer {
   position: absolute;
