@@ -270,6 +270,8 @@ iframe {
 
 /* ------------------------ */
 .image-container {
+  border: 1px solid var(--dark-gray);
+  height: 10rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
