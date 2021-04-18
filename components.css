@@ -10,10 +10,73 @@
 
   --white: #fff;
   --black: #000;
+
+  --dark-gray: #6b7280;
 }
+
+/* *********Paddings************** */
+
+.pad-xs {
+  padding: 0.5rem;
+}
+
+.pad-sm {
+  padding: 1rem;
+}
+
+.pad-md {
+  padding: 1.5rem;
+}
+
+.pad-lg {
+  padding: 2rem;
+}
+
+.pad-xl {
+  padding: 2.5rem;
+}
+
+.pad-xxl {
+  padding: 3rem;
+}
+
+/* ********margins*********** */
+.mar-xs {
+  margin: 0.5rem;
+}
+
+.mar-sm {
+  margin: 1rem;
+}
+
+.mar-md {
+  margin: 1.5rem;
+}
+
+.mar-lg {
+  margin: 2rem;
+}
+
+.mar-xl {
+  margin: 2.5rem;
+}
+
+.mar-xxl {
+  margin: 3rem;
+}
+
+/******* font utilities **********/
 
 .bold {
   font-weight: 600;
+}
+
+.thin {
+  font-weight: 300;
+}
+
+.gray {
+  color: var(--dark-gray);
 }
 
 /******** avatar styles *******/
@@ -43,7 +106,7 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  padding: 0.5rem 1rem;
+  padding: 1rem;
 }
 
 .alert-icon {

@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Alerts | Feather UI</title>
+    <title>Typography | Feather UI</title>
     <link rel="icon" href="../images/feather.svg" type="image/icon type" />
     <link
       rel="stylesheet"
@@ -26,8 +26,8 @@
         </a>
         <div class="navbar-content">
           <ul class="navbar-links-list">
-            <li class="navbar-links">Home</li>
-            <li class="navbar-links">Documentation</li>
+            <li>Home</li>
+            <li>Documentation</li>
             <li>
               <img
                 id="githubIcon"
@@ -63,7 +63,7 @@
         >
         <ul class="aside-menu">
             <a class="links" href="./avatar.html"><li>Avatar</li></a>
-            <a class="links bold" href="./alert.html"><li>Alert</li></a>
+            <a class="links" href="./alert.html"><li>Alert</li></a>
             <a class="links" href="./badges.html"><li>Badge</li></a>
             <a class="links" href="./button.html"><li>Button</li></a>
             <a class="links" href="#"><li>Image</li></a>
@@ -74,7 +74,7 @@
             <a class="links" href="#"><li>Modal</li></a>
             <a class="links" href="#"><li>Ratings</li></a>
             <a class="links" href="#"><li>Simple Grid</li></a>
-            <a class="links" href="./typography.html"><li>Typography</li></a>
+            <a class="links bold" href="./typography.html"><li>Typography</li></a>
           </ul>
       </div>
 
@@ -84,58 +84,71 @@
       </div>
     </aside>
     <div class="main-content content-wrap">
-      <div class="main-content-heading bold">Alert</div>
+      <div class="main-content-heading bold">Typography</div>
       <hr />
       <div class="main-content-description">
+        <div class="main-content-subheading">Spacing Utilities</div>
         <p>
-            The Alert component is used to provide contextual feedback messages for typical user actions with the handful of available and flexible alert messages.
+            <span class="bold"> Feather UI</span> includes a wide range of shorthand responsive <span class="bold">margin</span> and <span class="bold">padding</span> utility classes to modify an element’s appearance.
+            <br>
+            It comes with different flexible spacing utilities of different sizes, such as- 
+            <span class="bold">extra-small</span>,
+            <span class="bold">small</span>,
+            <span class="bold">medium</span>,
+            <span class="bold">large</span>,
+            <span class="bold">extra-large</span>,and
+            <span class="bold">extra-extra-large</span>.
+            The sizes are defined as -
+            <ul class="main-content-description--list">
+                <li>
+                    <span class="bold">xs</span> for extra-small <span class="gray bold">(0.5rem)</span>
+                </li>
+                <li>
+                  <span class="bold">sm</span> for small <span class="gray bold">(1rem)</span>
+                </li>
+                <li>
+                  <span class="bold">md</span> for medium <span class="gray bold">(1.5rem)</span>
+                </li>
+                <li>
+                  <span class="bold">lg</span> for large <span class="gray bold">(2rem)</span>
+                </li>
+                <li>
+                  <span class="bold">xl</span> for extra-large <span class="gray bold">(2.5rem)</span>
+                </li>
+                <li><span class="bold">xxl</span> for extra-extra-large <span class="gray bold">(3rem)</span>
+                </li>
+            </ul> 
         </p>
-        <div class="main-content-subheading">Alert with icons</div>
+        <div class="main-content-subheading">Padding </div>
         <p>
-          The Alerts component comes in 4 different flexible alert messages, such as
-          <span class="bold">success</span>,
-          <span class="bold">warning</span>,
-          <span class="bold">information</span> and
-          <span class="bold">warning</span> . The alerts can be used using these classes -
+          The Padding component comes with different flexible sizes, which can be used as -
           <ul class="main-content-description--list">
-              <li>alert success-alert</li>
-              <li>alert warning-alert</li>
-              <li>alert info-alert</li>
-              <li>alert danger-alert</li>
+              <li><span class="bold">pad-xs</span></li>
+              <li><span class="bold">pad-sm</span></li>
+              <li><span class="bold">pad-md</span></li>
+              <li><span class="bold">pad-lg</span></li>
+              <li><span class="bold">pad-xl</span></li>
+              <li><span class="bold">pad-xxl</span></li>
+          </ul>
+        </p>
+        <div class="main-content-subheading">Margin</div>
+        <p>
+          The Margin component comes with different flexible sizes, which can be used as -
+          <ul class="main-content-description--list">
+              <li><span class="bold">mar-xs</span></li>
+              <li><span class="bold">mar-sm</span></li>
+              <li><span class="bold">mar-md</span></li>
+              <li><span class="bold">mar-lg</span></li>
+              <li><span class="bold">mar-xl</span></li>
+              <li><span class="bold">mar-xxl</span></li>
           </ul>
         </p>
       </div>
       <div class="main-content-subheading">Example</div>
-      <div style="font-size:1rem" class="alert-container">
-        <!--success alert--> 
-        <div class = "alert success-alert mar-xs">
-            <div class="alert-icon"><i class="fa fa-check-circle fa-2x"></i></div>
-            <span class="bold">Success !</span>
-        </div>
-
-        <!--warning alert-->
-        <div class = "alert warning-alert mar-xs">
-            <div class="alert-icon"><i class="fa fa-exclamation-circle fa-2x"></i></div>
-            <span class="bold">Seems your account is about expire, upgrade now !</span>
-        </div>
-
-        <!--info alert-->
-        <div class = "alert info-alert mar-xs">
-            <div class="alert-icon"><i class="fa fa-info fa-2x"></i></div>
-            <span class="bold">Going live. Get ready!</span>
-        </div>
-
-        <!--danger alert-->
-        <div class = "alert danger-alert mar-xs">
-            <div class="alert-icon"><i class="fa fa-exclamation-triangle fa-2x"></i></div>
-            <span class="bold">There was an error processing your request !</span>
-        </div>
-      </div>
       <iframe
-        src="https://carbon.now.sh/embed/Dwtq0fQiuo5GPN62opPn"
-        style="width: 100%; height: 539px; border:0; transform: scale(1); overflow:hidden;"
+        src="https://carbon.now.sh/embed/Tc2Qcsnbtdh1VbVcVpCD"
+        style="width: 100%; height: 200px; border:0; transform: scale(1); overflow:hidden;"
         sandbox="allow-scripts allow-same-origin">
-      </iframe>
       </iframe>
     </div>
     <script src="../index.js"></script>
