@@ -1,3 +1,20 @@
+:root{
+    --darkgreen: #4caf50;
+    --lightgreen: #edf7ed;
+    --darkyellow: #ff9800;
+    --lightyellow: #fff4e5;
+    --darkred: #f44336;
+    --lightred: rgb(253, 236, 234);
+    --blue: #2196f3;
+    --lightblue: #e8f4fd;
+}
+
+.bold{
+    font-weight: 600;
+}
+
+/******** avatar styles *******/
+
 .avatar-sm {
     border-radius: 70px;
     width: 70px;
@@ -16,3 +33,42 @@
     height: 120px;
   }
   
+  /******** alert styles *********/
+
+  .alert {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0.5rem 1rem;
+  }
+  
+  .alert-icon{
+    margin-right: 1.5rem;
+    width: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .success-alert {
+    color: var(--darkgreen);
+    border-left: 5px solid var(--darkgreen);
+    background: var(--lightgreen);
+  }
+  .warning-alert {
+    color: var(--darkyellow);
+    border-left: 5px solid var(--darkyellow);
+    background: var(--lightyellow);
+  }
+  .danger-alert {
+    color: var(--darkred);
+    border-left: 5px solid var(--darkred);
+    background: var(--lightred);
+  }
+  
+  .info-alert {
+    color: var(--blue);
+    border-left: 5px solid var(--blue);
+    background: var(--lightblue);
+  }

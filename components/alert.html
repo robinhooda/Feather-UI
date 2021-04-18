@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alerts | Feather UI</title>
+    <link rel="icon" href="../images/feather.svg" type="image/icon type" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="../components.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="navbar-brand">
+          <img src="../images/feather.svg" class="navbar-brand-logo" />
+          <span class="navbar-brand-text">Feather UI</span>
+        </div>
+        <div class="navbar-content">
+          <ul class="navbar-links-list">
+            <li>Home</li>
+            <li>Documentation</li>
+            <li>
+              <img
+                id="githubIcon"
+                class="social-icons"
+                src="../icons/github-logo--dark.svg"
+                alt="github"
+              />
+            </li>
+            <li>
+              <img
+                id="themeToggle"
+                class="social-icons"
+                src="../images/darkMode.svg"
+              />
+            </li>
+            <li id="hamburger-icon">
+              <i class="fas fa-bars"></i>
+            </li>
+            <li id="cancel-icon">
+              <i class="fas fa-times"></i>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <hr style="height: 3px" />
+    <aside class="content-wrap">
+      <div>
+        <span class="bold"
+          ><a class="links" href="./getting-started.html">
+            Getting Started</a
+          ></span
+        >
+        <ul class="aside-menu">
+            <a class="links" href="./avatar.html"><li>Avatar</li></a>
+            <a class="links bold" href="./alert.html"><li>Alert</li></a>
+            <a class="links" href="#"><li>Badge</li></a>
+            <a class="links" href="#"><li>Button</li></a>
+            <a class="links" href="#"><li>Image</li></a>
+            <a class="links" href="#"><li>Card</li></a>
+            <a class="links" href="#"><li>Input</li></a>
+            <a class="links" href="#"><li>Lists</li></a>
+            <a class="links" href="#"><li>Navigation</li></a>
+            <a class="links" href="#"><li>Modal</li></a>
+            <a class="links" href="#"><li>Ratings</li></a>
+            <a class="links" href="#"><li>Simple Grid</li></a>
+            <a class="links" href="#"><li>Typography</li></a>
+          </ul>
+      </div>
+
+      <div class="aside-footer">
+        <div>Developed and designed by</div>
+        <span style="font-weight: 700">Robin Hooda</span>
+      </div>
+    </aside>
+    <div class="main-content content-wrap">
+      <div class="main-content-heading bold">Alert</div>
+      <hr />
+      <div class="main-content-description">
+        <p>
+            The Alert component is used to provide contextual feedback messages for typical user actions with the handful of available and flexible alert messages.
+        </p>
+        <div class="main-content-subheading">Alert with icons</div>
+        <p>
+          The Alerts component comes in 4 different flexible alert messages, such as
+          <span class="bold">success</span>,
+          <span class="bold">warning</span>,
+          <span class="bold">information</span> and
+          <span class="bold">warning</span> . The alerts can be used using these classes -
+          <ul class="main-content-description--list">
+              <li>alert success-alert</li>
+              <li>alert warning-alert</li>
+              <li>alert info-alert</li>
+              <li>alert danger-alert</li>
+          </ul>
+        </p>
+      </div>
+      <div class="main-content-subheading">Example</div>
+      <div style="font-size:1rem" class="alert-container">
+        <!--success alert--> 
+        <div class = "alert success-alert">
+            <div class="alert-icon"><i class="fa fa-check-circle fa-2x"></i></div>
+            <span class="bold">Success Alert</span>
+        </div>
+
+        <!--warning alert-->
+        <div class = "alert warning-alert">
+            <div class="alert-icon"><i class="fa fa-exclamation-circle fa-2x"></i></div>
+            <span class="bold">Warning Alert</span>
+        </div>
+
+        <!--info alert-->
+        <div class = "alert info-alert">
+            <div class="alert-icon"><i class="fa fa-info fa-2x"></i></div>
+            <span class="bold">Information Alert</span>
+        </div>
+
+        <!--danger alert-->
+        <div class = "alert danger-alert">
+            <div class="alert-icon"><i class="fa fa-exclamation-triangle fa-2x"></i></div>
+            <span class="bold">Danger Alert</span>
+        </div>
+      </div>
+      <iframe
+        src="https://carbon.now.sh/embed/Dwtq0fQiuo5GPN62opPn"
+        style="width: 100%; height: 539px; border:0; transform: scale(1); overflow:hidden;"
+        sandbox="allow-scripts allow-same-origin">
+      </iframe>
+      </iframe>
+    </div>
+    <script src="../index.js"></script>
+  </body>
+</html>
