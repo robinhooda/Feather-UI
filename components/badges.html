@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Badges | Feather UI</title>
+    <link rel="icon" href="../images/feather.svg" type="image/icon type" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="../components.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <a class="links" href="../index.html">
+          <div class="navbar-brand">
+            <img src="../images/feather.svg" class="navbar-brand-logo" />
+            <span class="navbar-brand-text">Feather UI</span>
+          </div>
+        </a>
+        <div class="navbar-content">
+          <ul class="navbar-links-list">
+            <li>Home</li>
+            <li>Documentation</li>
+            <li>
+              <img
+                id="githubIcon"
+                class="social-icons"
+                src="../icons/github-logo--dark.svg"
+                alt="github"
+              />
+            </li>
+            <li>
+              <img
+                id="themeToggle"
+                class="social-icons"
+                src="../images/darkMode.svg"
+              />
+            </li>
+            <li id="hamburger-icon">
+              <i class="fas fa-bars"></i>
+            </li>
+            <li id="cancel-icon">
+              <i class="fas fa-times"></i>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <hr style="height: 3px" />
+    <aside class="content-wrap">
+      <div>
+        <span class="bold"
+          ><a class="links" href="./getting-started.html">
+            Getting Started</a
+          ></span
+        >
+        <ul class="aside-menu">
+          <a class="links" href="./avatar.html"><li>Avatar</li></a>
+          <a class="links" href="./alert.html"><li>Alert</li></a>
+          <a class="links bold" href="#"><li>Badge</li></a>
+          <a class="links" href="#"><li>Button</li></a>
+          <a class="links" href="#"><li>Image</li></a>
+          <a class="links" href="#"><li>Card</li></a>
+          <a class="links" href="#"><li>Input</li></a>
+          <a class="links" href="#"><li>Lists</li></a>
+          <a class="links" href="#"><li>Navigation</li></a>
+          <a class="links" href="#"><li>Modal</li></a>
+          <a class="links" href="#"><li>Ratings</li></a>
+          <a class="links" href="#"><li>Simple Grid</li></a>
+          <a class="links" href="#"><li>Typography</li></a>
+        </ul>
+      </div>
+
+      <div class="aside-footer">
+        <div>Developed and designed by</div>
+        <span style="font-weight: 700">Robin Hooda</span>
+      </div>
+    </aside>
+    <div class="main-content content-wrap">
+      <div class="main-content-heading bold">Badges</div>
+      <hr />
+      <div class="main-content-description">
+        <p>
+          The Badge component generates a small badge to the top-right of its
+          child(ren).
+        </p>
+        <div class="main-content-subheading">Simple Badges</div>
+        <div class="badge-container">
+          <span class="badge bg-danger">Danger</span>
+          <span class="badge bg-warning">Warning</span>
+          <span class="badge bg-info">Info</span>
+          <span class="badge bg-light">Light</span>
+          <span class="badge bg-dark">Dark</span>
+        </div>
+      </div>
+      <iframe
+        src="https://carbon.now.sh/embed/wHb7H7ppvpHk6xbTY7cP"
+        style="
+          width: 100%;
+          height: 195px;
+          border: 0;
+          transform: scale(1);
+          overflow: hidden;
+        "
+        sandbox="allow-scripts allow-same-origin"
+      >
+      </iframe>
+    </div>
+    <script src="../index.js"></script>
+  </body>
+</html>

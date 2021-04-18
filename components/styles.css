@@ -290,3 +290,11 @@ iframe {
   height: 15rem;
   margin: 1rem 0rem;
 }
+
+.badge-container {
+  border: 1px solid var(--dark-gray);
+  height: 5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
