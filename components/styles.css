@@ -73,7 +73,8 @@ header {
   grid-area: navbar;
   display: flex;
   align-items: center;
-  border-bottom: 2px solid var(--dark-gray);
+  border-bottom: 1px solid var(--dark-gray);
+  box-shadow: 0 3px 6px #00000029, 0 3px 6px #0000003b;
 }
 
 .main-content {
@@ -87,7 +88,6 @@ header {
 /*********** NAVBAR STYLES *************/
 
 .navbar {
-  /* border-bottom: 1px solid gray; */
   background-color: inherit;
   flex-basis: 100%;
   align-self: center;
