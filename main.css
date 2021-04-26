@@ -18,6 +18,16 @@ body {
   /* overflow: hidden; */
 }
 
+.darkMode {
+  background-color: #444444;
+  color: white;
+}
+
+.lightMode {
+  background-color: white;
+  color: black;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -132,7 +142,7 @@ header {
 .secondary-button {
   border: 1px solid var(--primary-color);
   color: var(--primary-color);
-  background-color: white;
+  background-color: inherit;
   margin-left: 1rem;
 }
 
