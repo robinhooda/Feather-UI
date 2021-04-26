@@ -2,15 +2,14 @@ let themeIcon = document.querySelector("#iconToggle");
 let body = document.getElementsByTagName("body")[0];
 
 function changeThemeHandler() {
+
   // .getAttribute("src") is used instead of .src in order to get relative path instead of absolute path
   let themeIconPath = themeIcon.getAttribute("src");
 
   if (themeIconPath === "images/lightMode.svg") {
     body.classList.remove("darkMode");
-    body.classList.add("lightMode");
     themeIcon.src = "images/darkMode.svg";
   } else {
-    body.classList.remove("lightMode");
     body.classList.add("darkMode");
     themeIcon.src = "images/lightMode.svg";
   }
