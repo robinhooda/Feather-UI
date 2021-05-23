@@ -6,94 +6,107 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Feather UI</title>
     <link rel="icon" href="./images/feather.svg" type="image/icon type" />
-    <link rel="stylesheet" href="main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./main.css" />
+    <link rel="stylesheet" href="./components.css" />
   </head>
   <body>
-    <div class="container">
+    <header class="container">
       <nav class="navbar">
-        <div class="navbar-brand">
-          <img src="./images/feather.svg" class="navbar-brand-logo" />
-          <span class="navbar-brand-text">Feather UI</span>
-        </div>
-        <div class="navbar-links">
+        <a class="links" href="../index.html">
+          <div class="navbar-brand">
+            <img src="../images/feather.svg" class="navbar-brand-logo" />
+            <span class="navbar-brand-text">Feather UI</span>
+          </div>
+        </a>
+        <div class="navbar-content">
           <ul class="navbar-links-list">
-            <li>Documentation</li>
+            <li class="navbar-links">
+              <a class="links" href="./components/getting-started.html"
+                >Documentation</a
+              >
+            </li>
             <li>
-              <img
-                id="githubIcon"
-                class="social-icons"
-                src="icons/github-logo--dark.svg"
-                alt="github"
-              />
+              <a href="https://github.com/robinhooda/Feather-UI" class="links">
+                <img
+                  id="githubIcon"
+                  class="social-icons"
+                  src="../icons/github-logo--dark.svg"
+                  alt="github"
+              /></a>
             </li>
             <li>
               <img
                 id="themeToggle"
                 class="social-icons"
-                src="images/darkMode.svg"
-                alt="darkModeToggle"
+                src="../images/darkMode.svg"
               />
             </li>
           </ul>
         </div>
       </nav>
-      <header>
-        <div class="header-content">
-          <div class="header-content-heading">
-            <p>Feather UI</p>
-          </div>
-          <div class="header-content-subheading">
-            <p>
-              A ready to use CSS component library to built your websites faster
-            </p>
-          </div>
-          <div class="header-content-description">
-            <ul>
-              <li>
-                <img src="./images/check-mark.svg" class="list-icon" />Easy to
-                use
-              </li>
-              <li>
-                <img
-                  src="./images/check-mark.svg"
-                  class="list-icon"
-                />LightWeight as much as a feather
-              </li>
-              <li>
-                <img
-                  src="./images/check-mark.svg"
-                  class="list-icon"
-                />Customizable
-              </li>
-            </ul>
-          </div>
-          <div class="header-content-action">
-            <a href="./components/getting-started.html">
-              <button class="primary-button">Get Started</button>
-            </a>
-            <a href="#">
-              <button class="secondary-button">Download</button>
-            </a>
-          </div>
+    </header>
+    <main class="container">
+      <div class="left">
+        <div class="header-content-heading bold">Feather UI</div>
+        <div class="extra-thin">
+          A ready to use CSS component library to built your websites faster
         </div>
-        <div class="header-image">
-          <img class="header-hero-image" src="./images/hero-image.svg" />
+        <div class="header-content-description">
+          <ul>
+            <li class="list-type--none">
+              <img
+                src="./images/check-mark.svg"
+                class="list-icon pad-r-1"
+              />Easy to use
+            </li>
+            <li class="list-type--none">
+              <img
+                src="./images/check-mark.svg"
+                class="list-icon pad-r-1"
+              />LightWeight just like a feather
+            </li>
+            <li class="list-type--none">
+              <img
+                src="./images/check-mark.svg"
+                class="list-icon pad-r-1"
+              />Customizable
+            </li>
+          </ul>
         </div>
-      </header>
-    </div>
+        <div>
+          <a href="./components/getting-started.html">
+            <button class="primary-button">Get Started</button>
+          </a>
+          <a href="#">
+            <button class="secondary-button">Download</button>
+          </a>
+        </div>
+      </div>
+      <div class="right">
+        <img class="header-hero-image" src="./images/hero-image.svg" />
+      </div>
+    </main>
     <footer>
       <div class="author-links-section">
-        <img class="social-icons" src="./icons/github.svg" alt="" />
-        <img class="social-icons" src="./icons/linkedin.svg" alt="" />
-        <img class="social-icons" src="./icons/twitter.svg" alt="" />
+        <img class="social-icons" src="./icons/github.svg" alt="github" />
+        <img class="social-icons" src="./icons/linkedin.svg" alt="linkedin" />
+        <img class="social-icons" src="./icons/twitter.svg" alt="twitter" />
       </div>
       <div class="author-info">
         Developed and designed by
-        <span style="font-weight: 500"
-          ><a href="https://robinhooda.netlify.app/">Robin Hooda</a></span
+        <span class="bold"
+          ><a class="links" href="https://robinhooda.netlify.app/"
+            >Robin Hooda</a
+          ></span
         >
       </div>
     </footer>
-    <script src="./index.js"></script>
+    <script src="index.js"></script>
   </body>
 </html>
