@@ -40,6 +40,20 @@
   padding: 3rem;
 }
 
+/* padding-single-side */
+.pad-r-sm {
+  padding-right: 1rem;
+}
+.pad-l-sm {
+  padding-left: 1rem;
+}
+.pad-t-sm {
+  padding-top: 1rem;
+}
+.pad-b-sm {
+  padding-bottom: 1rem;
+}
+
 /* ********margins*********** */
 .mar-xs {
   margin: 0.5rem;
@@ -65,6 +79,39 @@
   margin: 3rem;
 }
 
+/* margin-single-side */
+
+/* margin-top */
+.mar-t-sm {
+  margin-top: 1rem;
+}
+.mar-t-md {
+  margin-top: 1.5rem;
+}
+.mar-t-lg {
+  margin-top: 2rem;
+}
+.mar-t-xl {
+  margin-top: 2.5rem;
+}
+.mar-t-xxl {
+  margin-top: 3rem;
+}
+/* right margin */
+.mar-r-sm {
+  margin-right: 1rem;
+}
+
+.mar-b-sm {
+  margin-bottom: 1rem;
+}
+
+.mar-l-sm {
+  margin-top: 1rem;
+}
+
+
+
 /******* font utilities **********/
 
 .bold {
@@ -75,8 +122,16 @@
   font-weight: 300;
 }
 
+.extra-thin {
+  font-weight: 100;
+}
+
 .gray {
   color: var(--dark-gray);
+}
+
+.green {
+  color: var(--darkgreen);
 }
 
 /******** avatar styles *******/
@@ -167,4 +222,13 @@
 .bg-light {
   background-color: var(--white);
   color: var(--black);
+}
+
+/* list styles */
+.list-type--none {
+  list-style: none;
+}
+
+.line-height-130 {
+  line-height: 130%;
 }
