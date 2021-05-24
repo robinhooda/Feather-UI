@@ -6,13 +6,13 @@ let cancel = document.querySelector('#cancel-icon')
 let aside = document.getElementsByTagName('aside')[0]
 
 const setdarkTheme = () => {
-  body.classList.add('darkMode')
+  body.classList.toggle('darkMode')
   githubIcon.src = '../icons/github-logo--light.svg'
   themeIcon.src = '../images/lightMode.svg'
 }
 
 const setLightTheme = () => {
-  body.classList.remove('darkMode')
+  body.classList.toggle('darkMode')
   githubIcon.src = '../icons/github-logo--dark.svg'
   themeIcon.src = '../images/darkMode.svg'
 }
