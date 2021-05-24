@@ -384,6 +384,9 @@ footer {
   .header-content-description ul li {
     line-height: 150%;
   }
+  .author-links-section .social-icons {
+    height: 1.5rem;
+  }
 }
 @media screen and (min-width: 600px) {
   #hamburger-icon,
