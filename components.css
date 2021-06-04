@@ -8,6 +8,9 @@
   --blue: #2196f3;
   --dark-blue: #226ee8;
   --lightblue: #e8f4fd;
+  --orange: #ff905a;
+  --gray: #696e79;
+  --pink: #ff3f6c;
 
   --white: #fff;
   --black: #000;
@@ -131,6 +134,22 @@
 
 .green {
   color: var(--darkgreen);
+}
+
+.orange {
+  color: var(--orange);
+}
+
+.gray {
+  color: var(--gray);
+}
+
+.dark-blue {
+  color: var(--dark-blue);
+}
+
+.strike-through {
+  text-decoration: line-through;
 }
 
 /******** avatar styles *******/
@@ -298,4 +317,92 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* card styles */
+
+/*----------- card styles----------- */
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* background-color: rgb(126, 143, 143); */
+  max-width: 200px;
+  /* height: 350px; */
+  /* border: 1px solid black; */
+  font-size: 0.8em;
+}
+
+.card > .thumbnail {
+  position: relative;
+}
+.thumbnail img {
+  width: 100%;
+}
+.card .card-content {
+  padding: 8px;
+}
+
+/* .card-content .card-content-heading{
+  font-weight: 600;
+} */
+
+.card-content .card-content-subHeading {
+  padding: 8px 0px;
+}
+
+.card-content .strike-through {
+  padding: 0px 3px;
+}
+
+.card-badge-text {
+  color: rgb(252, 251, 251);
+  font-size: 0.8em;
+  padding-left: 5px;
+  position: absolute;
+  top: 16px;
+}
+.card-badge {
+  position: absolute;
+  top: 13px;
+
+  /* width: 50px; */
+  /* opacity: 50%; */
+}
+.card-badge .box1 {
+  position: absolute;
+  border-bottom: 20px solid var(--dark-blue);
+  border-right: 15px solid transparent;
+  height: 0;
+  width: 50px;
+  opacity: 40%;
+}
+.card-badge .box2 {
+  position: absolute;
+  border-top: 20px solid var(--blue);
+  border-right: 15px solid transparent;
+  height: 0;
+  width: 50px;
+  opacity: 40%;
+}
+
+.card-action {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: 1rem;
+}
+
+.card-button {
+  width: 100%;
+  background-color: var(--dark-blue);
+  color: white;
+  border: 1px solid var(--dark-blue);
+  padding: 6px;
+  font-size: 110%;
 }
