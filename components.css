@@ -386,7 +386,7 @@
   position: relative;
 }
 .thumbnail img {
-  width: 100%;
+  width: 80%;
 }
 .card .card-content {
   padding: 8px;
