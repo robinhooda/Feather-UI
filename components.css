@@ -387,6 +387,7 @@
 }
 .thumbnail img {
   width: 80%;
+  height: 210px;
 }
 .card .card-content {
   padding: 8px;
