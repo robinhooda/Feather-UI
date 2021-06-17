@@ -381,15 +381,15 @@
   border-right: 15px solid transparent;
   height: 0;
   width: 50px;
-  opacity: 40%;
+  opacity: 80%;
 }
 .card-badge .box2 {
   position: absolute;
-  border-top: 20px solid var(--blue);
+  border-top: 20px solid var(--dark-blue);
   border-right: 15px solid transparent;
   height: 0;
   width: 50px;
-  opacity: 40%;
+  opacity: 80%;
 }
 
 .card-action {
