@@ -406,6 +406,17 @@
   border: 1px solid var(--dark-blue);
   padding: 6px;
   font-size: 110%;
+  cursor: pointer;
+}
+
+.card .thumbnail .cancel-button {
+  position: absolute;
+  right: 0.5rem;
+  top: 0.5rem;
+  font-size: 1.5rem;
+  color: var(--dark-blue);
+  border: none;
+  cursor: pointer;
 }
 
 /* Typography styles */
@@ -413,4 +424,8 @@
 .links {
   text-decoration: none;
   color: inherit;
+}
+
+.cursor-pointer {
+  cursor: pointer;
 }
