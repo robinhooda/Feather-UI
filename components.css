@@ -407,3 +407,10 @@
   padding: 6px;
   font-size: 110%;
 }
+
+/* Typography styles */
+
+.links {
+  text-decoration: none;
+  color: inherit;
+}
