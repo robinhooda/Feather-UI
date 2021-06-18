@@ -16,6 +16,11 @@
   --black: #000;
 
   --dark-gray: #6b7280;
+
+
+  --primary-color: #3b82f6;
+  --secondary-color: #eff6ff;
+  --primary-color-hover: #226ee8;
 }
 
 /* *********Paddings************** */
@@ -429,3 +434,41 @@
 .cursor-pointer {
   cursor: pointer;
 }
+
+
+/* button styles */
+
+.primary-button,
+.secondary-button {
+  padding: 0.6rem 3rem;
+  font-size: inherit;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 2rem 0rem;
+}
+
+.primary-button {
+  background-color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  color: white;
+}
+
+.secondary-button {
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+  background-color: inherit;
+  margin-left: 1rem;
+}
+
+.primary-button:hover {
+  background-color: var(--primary-color-hover);
+  border: 1px solid var(--primary-color-hover);
+}
+
+.secondary-button:hover {
+  background-color: var(--secondary-button-hover);
+  border: 1px solid var(--secondary-button-hover);
+  /* color: var(--primary-color) */
+}
+
+
