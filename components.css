@@ -435,22 +435,26 @@
   cursor: pointer;
 }
 
-
 /* button styles */
 
-.large-button{
+.large-button {
   padding: 0.6rem 3rem;
   border-radius: 0.6rem;
 }
 
-.small-button{
+.small-button {
   padding: 0.3rem 1.5rem;
   border-radius: 0.3rem;
 }
 
+.xs-button {
+  padding: 0.1rem 1rem;
+  border-radius: 0.3rem;
+}
+
+
 .primary-button,
 .secondary-button {
- 
   font-size: inherit;
   cursor: pointer;
 }
@@ -473,9 +477,7 @@
 }
 
 .secondary-button:hover {
-  background-color: var(--secondary-button-hover);
-  border: 1px solid var(--secondary-button-hover);
-  /* color: var(--primary-color) */
+  background-color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  color: white;
 }
-
-
