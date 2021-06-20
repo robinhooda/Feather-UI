@@ -54,7 +54,7 @@
   padding: 3rem;
 }
 
-/* padding-single-side */
+/* padding-single-side - small(1rem) */
 .pad-r-sm {
   padding-right: 1rem;
 }
@@ -66,6 +66,20 @@
 }
 .pad-b-sm {
   padding-bottom: 1rem;
+}
+
+/* padding-single-side - extra small (0.5rem) */
+.pad-r-xs {
+  padding-right: 0.5rem;
+}
+.pad-l-xs {
+  padding-left: 0.5rem;
+}
+.pad-t-xs {
+  padding-top: 0.5rem;
+}
+.pad-b-xs {
+  padding-bottom: 0.5rem;
 }
 
 /* no margin - remove margin */
