@@ -474,7 +474,7 @@
 }
 
 .cart-item__price {
-  padding-left: 1rem;
+  padding: 1rem;
 }
 
 .cart-item__price span {
