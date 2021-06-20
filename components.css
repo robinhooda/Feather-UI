@@ -121,10 +121,12 @@
   margin-right: 1rem;
 }
 
+/* bottom margin */
 .mar-b-sm {
   margin-bottom: 1rem;
 }
 
+/* left margin  */
 .mar-l-sm {
   margin-left: 1rem;
 }
@@ -242,7 +244,7 @@
 /* ******* Badges ******* */
 
 .badge {
-  font-size: 1rem;
+  font-size: 0.65rem;
   color: #fff;
   font-weight: bold;
   padding: 5px;
@@ -472,7 +474,7 @@
 }
 
 .cart-item__price {
-  padding: 0 1rem;
+  padding-left: 1rem;
 }
 
 .cart-item__price span {
