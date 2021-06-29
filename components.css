@@ -386,8 +386,7 @@
   position: relative;
 }
 .thumbnail img {
-  width: 80%;
-  height: 210px;
+  width: 100%
 }
 .card .card-content {
   padding: 8px;
@@ -448,9 +447,9 @@
 
 .card .thumbnail .cancel-button {
   position: absolute;
-  right: 0.5rem;
-  top: 0.5rem;
-  font-size: 1.5rem;
+  right: 0.7rem;
+  top: 0.8rem;
+  font-size: 1.2rem;
   color: var(--dark-blue);
   border: none;
   cursor: pointer;
