@@ -385,8 +385,8 @@
 .card > .thumbnail {
   position: relative;
 }
-.thumbnail-image {
-  width: 100%
+.thumbnail img {
+  width: 100%;
 }
 .card .card-content {
   padding: 8px;
