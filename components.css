@@ -130,19 +130,57 @@
 .mar-t-xxl {
   margin-top: 3rem;
 }
-/* right margin */
+
+/* right margin - single side*/
 .mar-r-sm {
   margin-right: 1rem;
 }
+.mar-r-md {
+  margin-top: 1.5rem;
+}
+.mar-r-lg {
+  margin-top: 2rem;
+}
+.mar-r-xl {
+  margin-top: 2.5rem;
+}
+.mar-r-xxl {
+  margin-top: 3rem;
+}
 
-/* bottom margin */
+
+/* bottom margin -single side*/
 .mar-b-sm {
   margin-bottom: 1rem;
+}
+.mar-b-md {
+  margin-top: 1.5rem;
+}
+.mar-b-lg {
+  margin-top: 2rem;
+}
+.mar-b-xl {
+  margin-top: 2.5rem;
+}
+.mar-b-xxl {
+  margin-top: 3rem;
 }
 
 /* left margin  */
 .mar-l-sm {
   margin-left: 1rem;
+}
+.mar-l-md {
+  margin-top: 1.5rem;
+}
+.mar-l-lg {
+  margin-top: 2rem;
+}
+.mar-l-xl {
+  margin-top: 2.5rem;
+}
+.mar-l-xxl {
+  margin-top: 3rem;
 }
 
 /******* font utilities **********/
@@ -161,6 +199,10 @@
 
 .underlined {
   text-decoration: underline;
+}
+
+.strike-through {
+  text-decoration: line-through;
 }
 
 /******** text colors *******/
@@ -189,9 +231,6 @@
   color: var(--mid-gray);
 }
 
-.strike-through {
-  text-decoration: line-through;
-}
 
 /******** avatar styles *******/
 
