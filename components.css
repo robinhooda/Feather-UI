@@ -136,16 +136,16 @@
   margin-right: 1rem;
 }
 .mar-r-md {
-  margin-top: 1.5rem;
+  margin-right: 1.5rem;
 }
 .mar-r-lg {
-  margin-top: 2rem;
+  margin-right: 2rem;
 }
 .mar-r-xl {
-  margin-top: 2.5rem;
+  margin-right: 2.5rem;
 }
 .mar-r-xxl {
-  margin-top: 3rem;
+  margin-right: 3rem;
 }
 
 
@@ -154,16 +154,16 @@
   margin-bottom: 1rem;
 }
 .mar-b-md {
-  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 .mar-b-lg {
-  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 .mar-b-xl {
-  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
 }
 .mar-b-xxl {
-  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
 /* left margin  */
@@ -171,16 +171,16 @@
   margin-left: 1rem;
 }
 .mar-l-md {
-  margin-top: 1.5rem;
+  margin-left: 1.5rem;
 }
 .mar-l-lg {
-  margin-top: 2rem;
+  margin-left: 2rem;
 }
 .mar-l-xl {
-  margin-top: 2.5rem;
+  margin-left: 2.5rem;
 }
 .mar-l-xxl {
-  margin-top: 3rem;
+  margin-left: 3rem;
 }
 
 /******* font utilities **********/
