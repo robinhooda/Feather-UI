@@ -205,6 +205,13 @@
   text-decoration: line-through;
 }
 
+.text-ellipsis {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
 /******** text colors *******/
 
 .gray {
@@ -229,6 +236,10 @@
 
 .mid-gray {
   color: var(--mid-gray);
+}
+
+.dark-red{
+  color: var(--darkred);
 }
 
 
