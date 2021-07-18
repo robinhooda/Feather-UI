@@ -622,6 +622,12 @@
   opacity: 60%;
 }
 
+/* for wrapping text */
+.content-wrap {
+  overflow-x: hidden;
+  overflow-wrap: break-word;
+}
+
 /****** button styles *******/
 
 .large-button {
