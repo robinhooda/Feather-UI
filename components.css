@@ -82,6 +82,20 @@
   padding-bottom: 0.5rem;
 }
 
+/* padding-single-side -large (2rem) */
+.pad-r-lg {
+  padding-right: 2rem;
+}
+.pad-l-lg {
+  padding-left: 2rem;
+}
+.pad-t-lg {
+  padding-top: 2rem;
+}
+.pad-b-lg {
+  padding-bottom: 2rem;
+}
+
 /* no margin - remove margin */
 .rm {
   margin: 0;
